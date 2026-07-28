@@ -1,0 +1,20 @@
+[
+    {
+        "server_name": "web-server-01",
+        "status": "running",
+        "port": 8080,
+        "tags": ["production", "web"]
+    },
+    {
+        "server_name": "db-server-01",
+        "status": "stopped",
+        "port": 5432,
+        "tags": ["production", "database"]
+    },
+    {
+        "server_name": "cache-server-01",
+        "status": "running",
+        "port": 6379,
+        "tags": ["staging", "cache"]
+    }
+]
